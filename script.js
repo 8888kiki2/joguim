@@ -9,12 +9,14 @@ const perguntas = [
         enunciado: "No âmbito social, você prefere:",
         alternativas: [
             {
-                texto: "alternativa 1",
-                afirmacao: "afirmação",
+                texto: "A fome do mundo acaba",
+                afirmacao: "mas todas as pessoas com que você se importa/ama vão esquecer que
+você existe",
             },
             {
-                texto: "alternativa 2",
-                afirmacao: "afirmação",
+                texto: "Realizar seus maiores sonhos",
+                afirmacao: " mas a humanidade é atingida por um víru zumbi onde apenas
+você é imune",
             },
         ]
     },
@@ -22,12 +24,13 @@ const perguntas = [
         enunciado: "No âmbito ambiental, você prefere:",
         alternativas: [
             {
-                texto: "alternativa 3",
-                afirmacao: "afirmação",
+                texto: "Acabar com o aquecimento global ",
+                afirmacao: "mas aleatoriamente 50% da população mundial morre",
             },
             {
-                texto: "alternativa 4",
-                afirmacao: "afirmação",
+                texto: "Ter uma lâmpada dos desejos",
+                afirmacao: "mas a cada desejo realizado 1 espécie vegetal e uma espécie
+animal é extinta",
             },
         ]
     },
@@ -35,12 +38,13 @@ const perguntas = [
         enunciado: "No âmbito tecnológico, você prefere:",
         alternativas: [
             {
-                texto: "alternativa 5",
-                afirmacao: "afirmação",
+                texto: "Ter todo o conhecimento sobre todas as coisas existentes",
+                afirmacao: "mas a tecnologia regride até 1700",
             },
             {
-                texto: "alternativa 6",
-                afirmacao: "afirmação",
+                texto: "Ser a pessoa mais poderosa do mundo",
+                afirmacao: "mas as máquinas e tecnologias dominam o planeta e
+escravizam a raça humana",
             },
         ]
     },
