@@ -10,13 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A fome do mundo acaba",
-                afirmacao: "mas todas as pessoas com que você se importa/ama vão esquecer que
-você existe",
+                afirmacao: "mas todas as pessoas com que você se importa/ama vão esquecer que você existe",
             },
             {
                 texto: "Realizar seus maiores sonhos",
-                afirmacao: " mas a humanidade é atingida por um víru zumbi onde apenas
-você é imune",
+                afirmacao: " mas a humanidade é atingida por um víru zumbi onde apenas você é imune",
             },
         ]
     },
@@ -29,8 +27,7 @@ você é imune",
             },
             {
                 texto: "Ter uma lâmpada dos desejos",
-                afirmacao: "mas a cada desejo realizado 1 espécie vegetal e uma espécie
-animal é extinta",
+                afirmacao: "mas a cada desejo realizado 1 espécie vegetal e uma espécie animal é extinta",
             },
         ]
     },
@@ -43,8 +40,7 @@ animal é extinta",
             },
             {
                 texto: "Ser a pessoa mais poderosa do mundo",
-                afirmacao: "mas as máquinas e tecnologias dominam o planeta e
-escravizam a raça humana",
+                afirmacao: "mas as máquinas e tecnologias dominam o planeta e escravizam a raça humana",
             },
         ]
     },
