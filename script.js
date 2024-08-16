@@ -55,4 +55,4 @@ function mostraPergunta() {
     caixaPergunta.textContent = perguntaAtual.enunciado;
 }
 
-mostraPergunta();
+ mostraPergunta();
