@@ -1,8 +1,8 @@
 const caixaPrincipal= document.querySelector('.caixa-principal');
-const caixaPrincipal= document.querySelector('.caixa-pergunta');
-const caixaPrincipal= document.querySelector('.caixa-altenativas');
-const caixaPrincipal= document.querySelector('.caixa-resultado');
-const caixaPrincipal= document.querySelector('.texto-reultado');
+const caixaPergunta= document.querySelector('.caixa-pergunta');
+const caixaAltenativas= document.querySelector('.caixa-altenativas');
+const caixaResultado= document.querySelector('.caixa-resultado');
+const caixaResultado= document.querySelector('.texto-resultado');
 
 const perguntas = [
 
@@ -28,8 +28,7 @@ alternativas: [
         },
         { 
             texto: "Ter uma lâmpada dos desejos",
-            afirmação : "mas a cada desejo realizado 1 espécie vegetal e uma espécie
-animal é extinta",
+            afirmação : "mas a cada desejo realizado 1 espécie vegetal e uma espécie animal é extinta",
         },
     ]
     },
@@ -42,8 +41,7 @@ animal é extinta",
             },
             { 
                 texto: "Ser a pessoa mais poderosa do mundo,Ser a pessoa mais poderosa do mundo",
-                afirmação : "mas as máquinas e tecnologias dominam o planeta e
-escravizam a raça humana",
+                afirmação : "mas as máquinas e tecnologias dominam o planeta e escravizam a raça humana",
             },
         ]
         },
@@ -51,3 +49,10 @@ escravizam a raça humana",
 
 let atual = 0;
 let perguntaAtual;
+
+function mostraPergunta (){
+    perguntaAtual = perguntas[atual];
+    caixaPergunta.textContent = perguntaAtual;
+}
+
+mostraPergunta();
