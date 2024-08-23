@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "Realizar seus maiores sonhos",
-                afirmacao: " mas a humanidade é atingida por um víru zumbi onde apenas você é imune",
+                afirmacao: " mas a humanidade é atingida por um vírus zumbi onde apenas você é imune",
             },
         ]
     },
@@ -48,6 +48,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 function mostraPergunta (){
     perguntaAtual = perguntas[atual];
@@ -60,12 +61,22 @@ function mostraAlternativa (){
     for (const pergunta of perguntaAtual.alternativas) {
        const botaoAlternativa = document.createElement('button');
        botaoAlternativa.textContent = pergunta.texto;
-       botaoAlternativa.addEventListener("click", function(){
-        atual++;
-        mostraPergunta();
-     })
+       botaoAlternativa.addEventListener("click", ()=>respostaSelecionada(pergunta));
        caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
+
+function respostaSelecionada (pergunta){
+    const afirmacoes = pergunta.afirmacao;
+    historiaFinal += afirmacoes + " ";
+    atual++;
+    mostraPergunta();
+ }
+
+ function mostraResultado(){
+    caixaPerguntas.textContent = "Em resumo, você escolheu ... ";
+    caixaResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+ }
 
 mostraPergunta();
