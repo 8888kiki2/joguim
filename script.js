@@ -9,12 +9,12 @@ const perguntas = [
         enunciado: "No âmbito social, você prefere:",
         alternativas: [
             {
-                texto: "A fome do mundo acaba",
-                afirmacao: "mas todas as pessoas com que você se importa/ama vão esquecer que você existe",
+                texto: "A fome do mundo acaba, mas todas as pessoas com que você se importa/ama vão esquecer que você existe",
+                afirmacao: "Parabéns, a fome do mundo acabou, mas ninguém mais lembra de você",
             },
             {
-                texto: "Realizar seus maiores sonhos",
-                afirmacao: " mas a humanidade é atingida por um vírus zumbi onde apenas você é imune",
+                texto: "Realizar seus maiores sonho, mas a humanidade é atingida por um vírus zumbi onde apenas você é imune",
+                afirmacao: "Parabéns, você é o ultimo sobrevivente da Terra ",
             },
         ]
     },
@@ -22,12 +22,12 @@ const perguntas = [
         enunciado: "No âmbito ambiental, você prefere:",
         alternativas: [
             {
-                texto: "Acabar com o aquecimento global ",
-                afirmacao: "mas aleatoriamente 50% da população mundial morre",
+                texto: "Acabar com o aquecimento global, mas aleatoriamente 50% da população mundial morre ",
+                afirmacao: "Parabens, o aquecimento global não existe mais, assim como 50% da população mundial",
             },
             {
-                texto: "Ter uma lâmpada dos desejos",
-                afirmacao: "mas a cada desejo realizado 1 espécie vegetal e uma espécie animal é extinta",
+                texto: "Ter uma lâmpada dos desejos, mas a cada desejo realizado 1 espécie vegetal e uma espécie animal é extinta",
+                afirmacao: "Parabens, depois de alguns desejos você extinguiu espécies importantes da fauna e da flora",
             },
         ]
     },
@@ -35,12 +35,12 @@ const perguntas = [
         enunciado: "No âmbito tecnológico, você prefere:",
         alternativas: [
             {
-                texto: "Ter todo o conhecimento sobre todas as coisas existentes",
-                afirmacao: "mas a tecnologia regride até 1700",
+                texto: "Ter todo o conhecimento sobre todas as coisas existentes, mas a tecnologia regride até 1700",
+                afirmacao: "Parabens, você possui todo o conhecimento e ninguém acredita em você",
             },
             {
-                texto: "Ser a pessoa mais poderosa do mundo",
-                afirmacao: "mas as máquinas e tecnologias dominam o planeta e escravizam a raça humana",
+                texto: "Ser a pessoa mais poderosa do mundo, mas as máquinas e tecnologias dominam o planeta e escravizam a raça humana",
+                afirmacao: "Parabens, mas você não tem força o suficiente para acabar com o controle das máquinas",
             },
         ]
     },
